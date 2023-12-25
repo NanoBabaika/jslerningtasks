@@ -31,13 +31,14 @@ console.log(summ22(10));
 
 
 // Задача 3
-function resultReturn (funcHi) {
+function resultReturn () {
     function funcHi () {
         return 'Hi from funcHi!';
     }
      return funcHi();
 }
  
+const retResult = resultReturn ();
 
 
 // Задача 4 
