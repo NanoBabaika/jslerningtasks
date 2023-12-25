@@ -62,8 +62,8 @@ console.log(counter());
 
 
 // Задача 5 
-function createMassive (...arguments) {
-    return Array.of(...arguments);;
+function createMassive (...args) {
+    return Array.of(...args);;
 }
 
 console.log(createMassive(1, 'Hi from array!', 20, 11));
