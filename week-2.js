@@ -1,7 +1,4 @@
-let summ = (a, b =10) => a + b;
-
-console.log(summ(10));
-
+ 
 const arr1 = [1, 2, 3, 4];
 
 function wievMassive (...args) {
