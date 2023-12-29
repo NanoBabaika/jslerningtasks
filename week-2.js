@@ -8,23 +8,12 @@ function wievMassive (...args) {
 
 wievMassive (...arr1);
 
+ 
+// Задача4
+let keys =  ['Сергей', 'Петров'];
+console.log(keys);
 
-
-// Перебор массива
-// Задание 1
-let arr = [
-    "Aple",
-    "Pear",
-    "Blueberry"
-];
-
-arr.forEach(function(item, i, arr) {
-    console.log( i + ": " + item + " (массив:" + arr + ")" );
-});
-
-
-const numbers = [1, 2, 3, 4, 5]; 
-
-for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
-}
+keys.forEach(function (item, i, keys) {
+    let copyKeys = [...keys];
+    console.log(copyKeys.map(e => e.toUpperCase()));
+ });

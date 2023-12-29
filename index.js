@@ -31,7 +31,10 @@ console.log(sum);
 
 
 // Задача4
-const keys = upperProps({ name: 'Сергей', lastName: 'Петров' });
+let keys = upperProps({ name: 'Сергей', lastName: 'Петров' });
+let keys2 = [...args];
+
+console.log(keys2);
 
 keys.forEach(function (item, i, keys) {
     console.log(keys.name);
