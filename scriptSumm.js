@@ -14,7 +14,7 @@ const resultButton = document.querySelector('#resultButton');
  
 
 resultButton.addEventListener('click', function(){
-   let result = a + b;
+   let result = Number(a) + Number(b);
     alert(result);
 })
  
