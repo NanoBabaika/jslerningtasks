@@ -108,12 +108,3 @@ console.log(student1.name, student1.age);
 const {name, LastName, age} = student1
 
 console.log(`${name} ${LastName}, (${age})`);
-
-b = 15
-
-function sum ( a = 10) {
-   result = a + b;
-   return result
-}
-
-console.log(sum());
